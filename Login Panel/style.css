@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, sans-serif;
+}
+body
+{
+    background-image: url(wallpaper.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-box
+{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+}
+.login-box h2
+{
+    color: white;
+    text-align: center;
+    font-weight: 650;
+    font-size: 3em;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.inbox
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    right: 40px;
+}
+.inbox span
+{
+    display: flexbox;
+    color: white;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    line-height: 1em;
+    width: 100%;
+    padding-right: 20px;
+}
+.inbox .inbox-box
+{
+    display: inline-flex;
+}
+.inbox .inbox-box input
+{
+    position: relative;
+    color: #0f2532;
+    width: 100%;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.login-box button
+{
+    cursor: pointer;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-color: #0f2532;
+    border-radius: 10px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.login-box button:hover
+{
+    transition: .5s;
+    background-color: #0f2532;
+}
+label
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.93em;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-right: 18px;
+}
+label input
+{
+    margin-right: 5px;
+}
+.login-box .forgetp
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    text-decoration: none;
+    align-items: center;
+}
